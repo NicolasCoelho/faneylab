@@ -60,24 +60,24 @@ export default function Home() {
               <ul className="u-nav u-spacing-2 u-unstyled u-nav-1">
                 <li className="u-nav-item"><a
                   className="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90"
-                  href="FaneyLab.html#carousel_4870" data-page-id="1486426869" style={{padding: "10px 20px"}}>Home</a>
+                  href="#carousel_4870" data-page-id="1486426869" style={{padding: "10px 20px"}}>Home</a>
                 </li>
                 <li className="u-nav-item"><a
                   className="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90"
-                  href="FaneyLab.html#sec-f7fc" data-page-id="1486426869" style={{padding: "10px 20px"}}>Social Media</a>
+                  href="#sec-f7fc" data-page-id="1486426869" style={{padding: "10px 20px"}}>Social Media</a>
                 </li>
                 <li className="u-nav-item"><a
                   className="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90"
-                  href="FaneyLab.html#carousel_cc5b" data-page-id="1486426869" style={{padding: "10px 20px"}}>Services</a>
+                  href="#carousel_cc5b" data-page-id="1486426869" style={{padding: "10px 20px"}}>Services</a>
                 </li>
                 <li className="u-nav-item"><a
                   className="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90"
-                  href="FaneyLab.html#carousel_5b7a" data-page-id="1486426869" style={{padding: "10px 20px"}}>Web site
+                  href="#carousel_5b7a" data-page-id="1486426869" style={{padding: "10px 20px"}}>Web site
                   Development</a>
                 </li>
                 <li className="u-nav-item"><a
                   className="u-active-grey-5 u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-hover-grey-10 u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90"
-                  href="FaneyLab.html#carousel_1b75" data-page-id="1486426869" style={{padding: "10px 20px"}}>Contact Us</a>
+                  href="#carousel_1b75" data-page-id="1486426869" style={{padding: "10px 20px"}}>Contact Us</a>
                 </li>
               </ul>
             </div>
@@ -86,19 +86,19 @@ export default function Home() {
                 <div className="u-sidenav-overflow">
                   <div className="u-menu-close"></div>
                   <ul className="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
-                    <li className="u-nav-item"><a className="u-button-style u-nav-link" href="FaneyLab.html#carousel_4870"
+                    <li className="u-nav-item"><a className="u-button-style u-nav-link" href="#carousel_4870"
                       data-page-id="1486426869" style={{padding: "10px 20px"}}>Home</a>
                     </li>
-                    <li className="u-nav-item"><a className="u-button-style u-nav-link" href="FaneyLab.html#sec-f7fc"
+                    <li className="u-nav-item"><a className="u-button-style u-nav-link" href="#sec-f7fc"
                       data-page-id="1486426869" style={{padding: "10px 20px"}}>Social Media</a>
                     </li>
-                    <li className="u-nav-item"><a className="u-button-style u-nav-link" href="FaneyLab.html#carousel_cc5b"
+                    <li className="u-nav-item"><a className="u-button-style u-nav-link" href="#carousel_cc5b"
                       data-page-id="1486426869" style={{padding: "10px 20px"}}>Services</a>
                     </li>
-                    <li className="u-nav-item"><a className="u-button-style u-nav-link" href="FaneyLab.html#carousel_5b7a"
+                    <li className="u-nav-item"><a className="u-button-style u-nav-link" href="#carousel_5b7a"
                       data-page-id="1486426869" style={{padding: "10px 20px"}}>Web site Development</a>
                     </li>
-                    <li className="u-nav-item"><a className="u-button-style u-nav-link" href="FaneyLab.html#carousel_1b75"
+                    <li className="u-nav-item"><a className="u-button-style u-nav-link" href="#carousel_1b75"
                       data-page-id="1486426869" style={{padding: "10px 20px"}}>Contact Us</a>
                     </li>
                   </ul>
@@ -130,7 +130,7 @@ export default function Home() {
                   </h1>
                   <p className="u-text u-text-3">Helping companies around the world to expand their revenues by a digital
                     presence with&nbsp;fair price.</p>
-                  <a href="FaneyLab.html#sec-e25a" data-page-id="1486426869"
+                  <a href="#sec-e25a" data-page-id="1486426869"
                     className="u-active-none u-border-2 u-border-black u-btn u-btn-rectangle u-button-style u-hover-none u-none u-btn-1">read
                     more</a>
                 </div>
@@ -196,7 +196,7 @@ export default function Home() {
                       company's digital presence will give you a <span style={{fontWeight: 700}}>professional
                       </span>&nbsp;appearence.
                     </p>
-                    <a href="FaneyLab.html#carousel_4d74" data-page-id="1486426869"
+                    <a href="#carousel_4d74" data-page-id="1486426869"
                       className="u-active-none u-border-2 u-border-black u-btn u-btn-rectangle u-button-style u-hover-none u-none u-btn-1">read
                       more</a>
                   </div>
@@ -343,7 +343,7 @@ export default function Home() {
                     <p className="u-text u-text-2">Together, these social medias have 4 bilions active users. They have a
                       incredible power to expose your business to the world. We got the strategy and the best tools to
                       manage it.</p>
-                    <a href="FaneyLab.html#carousel_cc5b" data-page-id="1486426869"
+                    <a href="#carousel_cc5b" data-page-id="1486426869"
                       className="u-border-0 u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-1">read
                       more</a>
                   </div>
@@ -508,7 +508,7 @@ export default function Home() {
                     <h3 className="u-text u-text-1"> Business Plan Services</h3>
                     <p className="u-text u-text-2">We are sure that we got the roght plan for you for the fairly price in the
                       market. Contact us to get a free buget.</p>
-                    <a href="FaneyLab.html#carousel_1b75" data-page-id="1486426869"
+                    <a href="#carousel_1b75" data-page-id="1486426869"
                       className="u-border-0 u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-1">Contact
                       us</a>
                   </div>
@@ -527,22 +527,22 @@ export default function Home() {
                 <form action="api/contact" method="POST" className="u-clearfix u-form-spacing-28 u-form-vertical u-inner-form"
                   style={{padding: "10px"}} source="custom" name="form">
                   <div className="u-form-group u-form-name u-form-group-1">
-                    <label for="name-5a14" className="u-form-control-hidden u-label" wfd-invisible="true"></label>
+                    <label htmlFor="name-5a14" className="u-form-control-hidden u-label" wfd-invisible="true"></label>
                     <input type="text" placeholder="Enter your Name" id="name-5a14" name="name"
                       className="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-white"
-                      required="" maxlength="50"></input>
+                      required="" maxLength="50"></input>
                   </div>
                   <div className="u-form-email u-form-group u-form-group-2">
-                    <label for="email-5a14" className="u-form-control-hidden u-label" wfd-invisible="true">Email</label>
+                    <label htmlFor="email-5a14" className="u-form-control-hidden u-label" wfd-invisible="true">Email</label>
                     <input type="email" placeholder="Enter a valid email address" id="email-5a14" name="email"
                       className="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-white"
-                      required="" maxlength="50"></input>
+                      required="" maxLength="50"></input>
                   </div>
                   <div className="u-form-group u-form-message u-form-group-3">
-                    <label for="message-5a14" className="u-form-control-hidden u-label" wfd-invisible="true">Message</label>
+                    <label htmlFor="message-5a14" className="u-form-control-hidden u-label" wfd-invisible="true">Message</label>
                     <textarea placeholder="Enter your message" rows="4" cols="50" id="message-5a14" name="message"
                       className="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-white"
-                      required="" maxlength="300"></textarea>
+                      required="" maxLength="300"></textarea>
                   </div>
                   <div className="u-align-center u-form-group u-form-submit u-form-group-4">
                     <a href="#"
