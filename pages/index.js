@@ -17,9 +17,9 @@ export default function Home() {
         <meta name="generator" content="Nicepage 3.24.3, nicepage.com"></meta>
         <meta property="og:title" content="FaneyLab"></meta>
         <meta property="og:description" content="Digital Agency with fair price to expand your business. Social media management and web site development."></meta>
-        <meta property="og:image" content="https://faneylab.com/images/logo.png"></meta>
-        <meta property="og:url" content="https://faneylab.com"></meta>
-        <link rel="canonical" href="https://faneylab.com"></link>
+        <meta property="og:image" content="https://faneylab.com/images/logo2.png"></meta>
+        <meta property="og:url" content="https://www.faneylab.com"></meta>
+        <link rel="canonical" href="https://www.faneylab.com"></link>
         <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"></link>
         <meta name="theme-color" content="#4345e7"></meta>
         <meta property="og:type" content="website"></meta>
