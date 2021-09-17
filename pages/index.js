@@ -96,7 +96,7 @@ export default function Home() {
                       data-page-id="1486426869" style={{padding: "10px 20px"}}>Services</a>
                     </li>
                     <li className="u-nav-item"><a className="u-button-style u-nav-link" href="#carousel_5b7a"
-                      data-page-id="1486426869" style={{padding: "10px 20px"}}>Web site Development</a>
+                      data-page-id="1486426869" style={{padding: "10px 20px"}}>Website Development</a>
                     </li>
                     <li className="u-nav-item"><a className="u-button-style u-nav-link" href="#carousel_1b75"
                       data-page-id="1486426869" style={{padding: "10px 20px"}}>Contact Us</a>
@@ -506,7 +506,7 @@ export default function Home() {
                 <div className="u-align-left u-container-style u-layout-cell u-size-25 u-white u-layout-cell-2">
                   <div className="u-container-layout u-valign-middle u-container-layout-2">
                     <h3 className="u-text u-text-1"> Business Plan Services</h3>
-                    <p className="u-text u-text-2">We are sure that we got the roght plan for you for the fairly price in the
+                    <p className="u-text u-text-2">We are sure that we got the right plan for you for the fairly price in the
                       market. Contact us to get a free buget.</p>
                     <a href="#carousel_1b75" data-page-id="1486426869"
                       className="u-border-0 u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-1">Contact
@@ -579,6 +579,27 @@ export default function Home() {
                     </svg></span>
                   <h5 className="u-text u-text-2">Call Us on whats app</h5>
                   <p className="u-text u-text-3">55 51 9 8203 - 3056</p>
+                </div>
+              </div>
+              <div className="u-container-style u-list-item u-palette-2-light-2 u-repeater-item u-list-item-1">
+                <div
+                  className="u-container-layout u-similar-container u-valign-top-lg u-valign-top-md u-valign-top-sm u-valign-top-xl u-container-layout-2">
+                  <span className="u-icon u-icon-circle u-text-white u-icon-1"><svg className="u-svg-link"
+                    preserveAspectRatio="xMidYMin slice" viewBox="0 0 513.64 513.64" >
+                    <use xmlnsXlink="http://www.w3.org/1999/xlink" xlinkHref="#svg-d5b6"></use>
+                  </svg><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1"
+                    xmlSpace="preserve" className="u-svg-content" viewBox="0 0 513.64 513.64" x="0px" y="0px" id="svg-d5b6"
+                    style={{enableBackground: "new 0 0 513.64 513.64"}}>
+                      <g>
+                        <g>
+                          <path
+                            d="M499.66,376.96l-71.68-71.68c-25.6-25.6-69.12-15.359-79.36,17.92c-7.68,23.041-33.28,35.841-56.32,30.72    c-51.2-12.8-120.32-79.36-133.12-133.12c-7.68-23.041,7.68-48.641,30.72-56.32c33.28-10.24,43.52-53.76,17.92-79.36l-71.68-71.68    c-20.48-17.92-51.2-17.92-69.12,0l-48.64,48.64c-48.64,51.2,5.12,186.88,125.44,307.2c120.32,120.32,256,176.641,307.2,125.44    l48.64-48.64C517.581,425.6,517.581,394.88,499.66,376.96z">
+                          </path>
+                        </g>
+                      </g>
+                    </svg></span>
+                  <h5 className="u-text u-text-2">Email</h5>
+                  <p className="u-text u-text-3"><a href="mailto:contact@faneylab.com">contact@faneylab.com</a></p>
                 </div>
               </div>
               <div className="u-container-style u-list-item u-palette-2-light-2 u-repeater-item u-list-item-2">
