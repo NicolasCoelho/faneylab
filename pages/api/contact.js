@@ -1,4 +1,4 @@
-import sendEmail from '../../util/mailsender';
+import sendEmail from '../../util/mailSender';
 
 export default async (req, res) => {
   try {
@@ -6,9 +6,9 @@ export default async (req, res) => {
 
     try {
       let result = await sendEmail(
-        'Dicuore Organiza <contact@faneylab.com>',
-        'nicole@faneylab.com, nicolas@faneylab.com',
-        'Dicuore Organiza <contact@faneylab.com>',
+        'Contact <dicuoreorganiza@gmail.com>',
+        'contact@faneylab.com',
+        'Contact <dicuoreorganiza@gmail.com>',
         'Novo contato',
         `Novo contato: nome: ${name} - email: ${email} - Mensagem: ${message}`,
         `<div style=" width: 600px; text-align: center; padding: 20px 15px;">

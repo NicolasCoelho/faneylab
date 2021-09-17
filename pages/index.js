@@ -192,7 +192,7 @@ export default function Home() {
                   <div className="u-container-layout u-valign-middle u-container-layout-3">
                     <h1 className="u-text u-text-2">We help your business to grow</h1>
                     <div className="u-border-3 u-border-palette-1-base u-line u-line-horizontal u-line-1"></div>
-                    <p className="u-text u-text-3">Yes, growing your businessis more than possible!&nbsp;<br></br>With our help, your
+                    <p className="u-text u-text-3">Yes, growing your business is more than possible!&nbsp;<br></br>With our help, your
                       company's digital presence will give you a <span style={{fontWeight: 700}}>professional
                       </span>&nbsp;appearence.
                     </p>
@@ -340,7 +340,7 @@ export default function Home() {
                 <div className="u-align-left u-container-style u-layout-cell u-size-25 u-white u-layout-cell-1">
                   <div className="u-container-layout u-container-layout-1">
                     <h3 className="u-text u-text-1">Instagram and Facebook</h3>
-                    <p className="u-text u-text-2">Together, these social medias have 4 bilions active users. They have a
+                    <p className="u-text u-text-2">Together, these social medias have 4 bilions active users. They have an
                       incredible power to expose your business to the world. We got the strategy and the best tools to
                       manage it.</p>
                     <a href="#carousel_cc5b" data-page-id="1486426869"
