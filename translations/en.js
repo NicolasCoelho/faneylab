@@ -1,5 +1,6 @@
 module.exports = {
-    metaKeywords: "Digital Agency, We help your business to grow, Let our experts bring success business, Boost your brand with these key features, Business Plan Services, Contact Us",
+    language: 'English',
+    metaKeywords: "Digital Agency, We help your business to grow, Let our experts bring success business, Boost your brand with these key features, Business Plan Services, Social media, Contact Us",
     pageDescription: "Digital Agency with fair price to expand your business. Social media management and web site development.",
     menu: {
         page1: "Home",
@@ -24,22 +25,22 @@ module.exports = {
         point1: "strategy",
         point2: "marketing",
         point3: "Design",
-        text: "We are specialized in creating digital presence for our costumers. We believe a good first impression is essential to anyone who's bringing their work to social media. Our experts have been trained to deliver the best in these three pillars."
+        text: "We are specialized in creating digital presence for our custumers. We believe a good first impression is essential to anyone who's bringing their work to social media. Our experts have been trained to deliver the best in these three pillars."
     },
     section4: {
         title: "Instagram and Facebook",
-        text: "Together, these social medias have 4 bilions active users. They have an incredible power to expose your business to the world. We got the strategy and the best tools to manage it.",
-        actionBtn: "Read More"
+        text: "Juntas, essas duas redes sociais possuem cerca de 4 bilhões de usuários ativos. Elas têm um poder incrível de expor sua empresa ao mundo, e as pessoas certas. Temos a estratégia e as melhores ferramentas para criar e gerenciá-los.",
+        actionBtn: "Leia mais"
     },
     section5: {
         preTitle: "FEATURES",
-        title: "Boost your brand with these key features",
+        title: "Impulsione sua marca com esses recursos-chave",
         point1: {
             title: "Social Media",
             text: "Instagram and Facebook creation and management."
         },
         point2: {
-            title: "Web Site",
+            title: "Sites",
             text: "Development with the best tools"
         },
         point3: {
