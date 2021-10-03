@@ -25,22 +25,22 @@ module.exports = {
         point1: "strategy",
         point2: "marketing",
         point3: "Design",
-        text: "We are specialized in creating digital presence for our custumers. We believe a good first impression is essential to anyone who's bringing their work to social media. Our experts have been trained to deliver the best in these three pillars."
+        text: "We are specialized in creating digital presence for our customers. We believe a good first impression is essential to anyone who's bringing their work to social media. Our experts have been trained to deliver the best in these three pillars."
     },
     section4: {
         title: "Instagram and Facebook",
-        text: "Juntas, essas duas redes sociais possuem cerca de 4 bilhões de usuários ativos. Elas têm um poder incrível de expor sua empresa ao mundo, e as pessoas certas. Temos a estratégia e as melhores ferramentas para criar e gerenciá-los.",
-        actionBtn: "Leia mais"
+        text: "Together, these social medias have 4 bilions active users. They have an incredible power to expose your business to the world. We got the strategy and the best tools to manage it.",
+        actionBtn: "Read More"
     },
     section5: {
         preTitle: "FEATURES",
-        title: "Impulsione sua marca com esses recursos-chave",
+        title: "Boost your brand with these key features",
         point1: {
             title: "Social Media",
             text: "Instagram and Facebook creation and management."
         },
         point2: {
-            title: "Sites",
+            title: "Websites",
             text: "Development with the best tools"
         },
         point3: {
