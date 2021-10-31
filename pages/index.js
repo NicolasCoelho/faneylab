@@ -20,7 +20,10 @@ export default function Home(props) {
                 <meta property="og:description" content={props.pageDescription}></meta>
                 <meta property="og:image" itemProp="image" content="https://faneylab.com/images/Logo2.png"></meta>
                 <meta property="og:url" content="https://www.faneylab.com"></meta>
-                <link rel="canonical" href="https://www.faneylab.com"></link>
+                {props.language === 'English' ? <link rel="canonical" href="https://www.faneylab.com/en"></link> : <link rel="canonical" href="https://www.faneylab.com/pt"></link>}
+                <link rel="alternate" href="https://www.faneylab.com/en" hreflang="x-default" />
+                <link rel="alternate" hreflang="en" href="https://www.faneylab.com/en"></link>
+                <link rel="alternate" hreflang="pt" href="https://www.faneylab.com/pt"></link>
                 <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"></link>
                 <meta name="theme-color" content="#4345e7"></meta>
                 <meta property="og:type" content="website"></meta>
@@ -39,7 +42,7 @@ export default function Home(props) {
 
             <header className="u-clearfix u-header u-sticky u-header" id="sec-3cd6" style={{ backgroundColor: "#fff" }}>
                 <div className="u-clearfix u-sheet u-sheet-1">
-                <div style={{ display: "flex", alignItems: "center", position:"fixed", top: "60px", marginLeft: "20px;", fontSize: "18px" }}><img src="/images/language-solid.svg" width="40"></img>&nbsp;<div><a href="/en" style={{ color: props.language === 'English'? '#f9a5a9': '#000' }}>EN</a>&nbsp;|&nbsp;<a href="/pt" style={{ color: props.language === 'Português'? '#f9a5a9': '#000' }} className="lang-selector">PT</a></div></div>
+                <div style={{ display: "flex", alignItems: "center", position:"fixed", top: "60px", marginLeft: "20px;", fontSize: "18px" }}><img src="/images/language-solid.svg" width="40" alt=""></img>&nbsp;<div><a href="/en" style={{ color: props.language === 'English'? '#f9a5a9': '#000' }}>EN</a>&nbsp;|&nbsp;<a href="/pt" style={{ color: props.language === 'Português'? '#f9a5a9': '#000' }} className="lang-selector">PT</a></div></div>
                     <nav className="u-menu u-menu-dropdown u-offcanvas u-menu-1" data-responsive-from="XL">
                         <div className="menu-collapse" style={{fontSize: "1rem", letterSpacing: "0px", fontWeight: 500}}>
                             <a className="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"

@@ -1,3 +1,6 @@
+Sitemap: https://www.faneylab.com/sitemap.xml
 User-Agent: *
 Allow: /
+Allow: /en
+Allow: /pt
 Disallow: /api/
