@@ -15,15 +15,17 @@ export default function Home(props) {
                 <link rel="stylesheet" href="FaneyLab.css" media="screen"></link>
                 <script className="u-script" type="text/javascript" src="jquery.js" defer=""></script>
                 <script className="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+                <script type="text/javascript" src="captcha.js"></script>
                 <meta name="generator" content="Nicepage 3.24.3, nicepage.com"></meta>
                 <meta property="og:title" content="FaneyLab"></meta>
                 <meta property="og:description" content={props.pageDescription}></meta>
                 <meta property="og:image" itemProp="image" content="https://faneylab.com/images/Logo2.png"></meta>
                 <meta property="og:url" content="https://www.faneylab.com"></meta>
                 {props.language === 'English' ? <link rel="canonical" href="https://www.faneylab.com/en"></link> : <link rel="canonical" href="https://www.faneylab.com/pt"></link>}
-                <link rel="alternate" href="https://www.faneylab.com/en" hreflang="x-default" />
-                <link rel="alternate" hreflang="en" href="https://www.faneylab.com/en"></link>
-                <link rel="alternate" hreflang="pt" href="https://www.faneylab.com/pt"></link>
+                <link rel="alternate" href="https://www.faneylab.com/en" hrefLang="x-default" />
+                <link rel="alternate" hrefLang="en" href="https://www.faneylab.com/en"></link>
+                <link rel="alternate" hrefLang="pt" href="https://www.faneylab.com/pt"></link>
+                <link rel="icon" href="favicon.ico"></link>
                 <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"></link>
                 <meta name="theme-color" content="#4345e7"></meta>
                 <meta property="og:type" content="website"></meta>
@@ -42,7 +44,7 @@ export default function Home(props) {
 
             <header className="u-clearfix u-header u-sticky u-header" id="sec-3cd6" style={{ backgroundColor: "#fff" }}>
                 <div className="u-clearfix u-sheet u-sheet-1">
-                <div style={{ display: "flex", alignItems: "center", position:"fixed", top: "60px", marginLeft: "20px;", fontSize: "18px" }}><img src="/images/language-solid.svg" width="40" alt=""></img>&nbsp;<div><a href="/en" style={{ color: props.language === 'English'? '#f9a5a9': '#000' }}>EN</a>&nbsp;|&nbsp;<a href="/pt" style={{ color: props.language === 'Português'? '#f9a5a9': '#000' }} className="lang-selector">PT</a></div></div>
+                <div style={{ display: "flex", alignItems: "center", position:"fixed", top: "60px", marginLeft: "20px", fontSize: "18px" }}><img src="/images/language-solid.svg" width="40" alt=""></img>&nbsp;<div><a href="/en" style={{ color: props.language === 'English'? '#f9a5a9': '#000' }}>EN</a>&nbsp;|&nbsp;<a href="/pt" style={{ color: props.language === 'Português'? '#f9a5a9': '#000' }} className="lang-selector">PT</a></div></div>
                     <nav className="u-menu u-menu-dropdown u-offcanvas u-menu-1" data-responsive-from="XL">
                         <div className="menu-collapse" style={{fontSize: "1rem", letterSpacing: "0px", fontWeight: 500}}>
                             <a className="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
@@ -209,27 +211,27 @@ export default function Home(props) {
                 <img src="images/sadd.jpg" alt=""
                     className="u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-image u-image-contain u-image-default u-image-1"
                     data-image-width="1200" data-image-height="1200"></img>
-                <div class ="u-clearfix u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-layout-wrap u-layout-wrap-1">
-                <div class ="u-layout">
-                <div class ="u-layout-col">
-                <div class ="u-size-20">
-                <div class ="u-layout-row">
+                <div className="u-clearfix u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-layout-wrap u-layout-wrap-1">
+                <div className="u-layout">
+                <div className="u-layout-col">
+                <div className="u-size-20">
+                <div className="u-layout-row">
                 <div
-                class ="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-container-style u-layout-cell u-size-60 u-layout-cell-1">
-                <div class ="u-container-layout u-container-layout-1">
-                <h2 class ="u-text u-text-1">{props.section3.title}</h2>
+                className="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-container-style u-layout-cell u-size-60 u-layout-cell-1">
+                <div className="u-container-layout u-container-layout-1">
+                <h2 className="u-text u-text-1">{props.section3.title}</h2>
                 </div>
                 </div>
                 </div>
                 </div>
-                <div class ="u-size-20">
-                <div class ="u-layout-row">
-                <div class ="u-align-center u-container-style u-layout-cell u-size-20 u-size-30-md u-layout-cell-2">
-                <div class ="u-container-layout u-valign-top u-container-layout-2"><span
-                class ="u-icon u-icon-circle u-icon-1"><svg class ="u-svg-link" preserveAspectRatio="xMidYMin slice"
+                <div className="u-size-20">
+                <div className="u-layout-row">
+                <div className="u-align-center u-container-style u-layout-cell u-size-20 u-size-30-md u-layout-cell-2">
+                <div className="u-container-layout u-valign-top u-container-layout-2"><span
+                className="u-icon u-icon-circle u-icon-1"><svg className="u-svg-link" preserveAspectRatio="xMidYMin slice"
                 viewBox="0 0 297 297" >
                 <use xmlnsXlink="http://www.w3.org/1999/xlink" xlinkHref="#svg-2559"></use>
-                </svg><svg class ="u-svg-content" viewBox="0 0 297 297" id="svg-2559">
+                </svg><svg className="u-svg-content" viewBox="0 0 297 297" id="svg-2559">
                 <g>
                 <path
                 d="m255.402,41.116c-22.937,0-41.599,18.661-41.599,41.598s18.661,41.599 41.599,41.599c22.937,0 41.598-18.662 41.598-41.599s-18.661-41.598-41.598-41.598zm0,65.786c-13.338,0-24.188-10.85-24.188-24.188 0-13.337 10.85-24.187 24.188-24.187 13.337,0 24.187,10.85 24.187,24.187 0.001,13.338-10.85,24.188-24.187,24.188z">
@@ -245,15 +247,15 @@ export default function Home(props) {
                 </path>
                 </g>
                 </svg></span>
-                <h5 class ="u-text u-text-2">{props.section3.point1}</h5>
+                <h5 className="u-text u-text-2">{props.section3.point1}</h5>
                 </div>
                 </div>
-                <div class ="u-align-center u-container-style u-layout-cell u-size-20 u-size-30-md u-layout-cell-3">
-                <div class ="u-container-layout u-valign-top u-container-layout-3"><span
-                class ="u-icon u-icon-circle u-icon-2"><svg class ="u-svg-link" preserveAspectRatio="xMidYMin slice"
+                <div className="u-align-center u-container-style u-layout-cell u-size-20 u-size-30-md u-layout-cell-3">
+                <div className="u-container-layout u-valign-top u-container-layout-3"><span
+                className="u-icon u-icon-circle u-icon-2"><svg className="u-svg-link" preserveAspectRatio="xMidYMin slice"
                 viewBox="0 0 512.001 512.001" >
                 <use xmlnsXlink="http://www.w3.org/1999/xlink" xlinkHref="#svg-36e0"></use>
-                </svg><svg class ="u-svg-content" viewBox="0 0 512.001 512.001" x="0px" y="0px" id="svg-36e0"
+                </svg><svg className="u-svg-content" viewBox="0 0 512.001 512.001" x="0px" y="0px" id="svg-36e0"
                 style={{enableBackground:"new 0 0 512.001 512.001"}}>
                 <g>
                 <g>
@@ -291,15 +293,15 @@ export default function Home(props) {
                 </g>
                 </g>
                 </svg></span>
-                <h5 class ="u-text u-text-3">{props.section3.point2}</h5>
+                <h5 className="u-text u-text-3">{props.section3.point2}</h5>
                 </div>
                 </div>
-                <div class ="u-align-center u-container-style u-layout-cell u-size-20 u-size-60-md u-layout-cell-4">
-                <div class ="u-container-layout u-valign-top u-container-layout-4"><span
-                class ="u-icon u-icon-circle u-icon-3"><svg class ="u-svg-link" preserveAspectRatio="xMidYMin slice"
+                <div className="u-align-center u-container-style u-layout-cell u-size-20 u-size-60-md u-layout-cell-4">
+                <div className="u-container-layout u-valign-top u-container-layout-4"><span
+                className="u-icon u-icon-circle u-icon-3"><svg className="u-svg-link" preserveAspectRatio="xMidYMin slice"
                 viewBox="-3 0 512 512" >
                 <use xmlnsXlink="http://www.w3.org/1999/xlink" xlinkHref="#svg-1a38"></use>
-                </svg><svg class ="u-svg-content" viewBox="-3 0 512 512" id="svg-1a38">
+                </svg><svg className="u-svg-content" viewBox="-3 0 512 512" id="svg-1a38">
                 <path
                 d="m294.90625 315v92c0 57.898438 47.101562 105 105 105 58.449219 0 106-47.101562 106-105v-92c0-52.855469-39.628906-96.703125-91-103.945312v-121.054688c0-49.625-40.375-90-90-90s-90 40.375-90 90v332c0 33.085938-26.914062 60-60 60-33.082031 0-60-26.914062-60-60v-122h15c8.285156 0 15-6.714844 15-15 0-10.28125 0-59.820312 0-67.265625 0-27.105469 14.691406-52.175781 38.335938-65.425781l8.371093-4.691406c3.769531-2.109376 6.441407-5.746094 7.339844-9.96875.898437-4.226563-.070313-8.632813-2.652344-12.09375l-84.375-112.96875c-2.820312-3.777344-7.253906-6.007813-11.964843-6.023438-.019532 0-.035157 0-.054688 0-4.691406 0-9.117188 2.199219-11.953125 5.941406l-84.90625 112.027344c-2.59375 3.421875-3.597656 7.792969-2.753906 12.003906.839843 4.210938 3.445312 7.859375 7.15625 10.019532l9.214843 5.367187c23.589844 13.742187 38.242188 38.574219 38.242188 64.804687v68.273438c0 8.28125 6.714844 15 15 15h15v122c0 49.625 40.375 90 90 90s90-40.375 90-90v-332c0-33.085938 26.917969-60 60-60 33.085938 0 60 26.914062 60 60v121.074219c-50.816406 7.304687-90 51.121093-90 103.925781zm-180-45h-30v-30h30zm-77.832031-140.699219 47.832031-63.113281v83.8125c0 8.285156 6.714844 15 15 15s15-6.714844 15-15v-83.285156l47.285156 63.304687c-27.195312 17.898438-44.585937 47.519531-46.988281 79.980469h-30.527344c-2.171875-32.308594-19.863281-62.328125-47.601562-80.699219zm347.832031 112.207031v89.492188h-60v-16c0-36.21875 25.808594-66.523438 60-73.492188zm15 240.492188c-41.355469 0-75-33.644531-75-75v-46h151v46c0 41.355469-34.09375 75-76 75zm76-167v16h-61v-89.527344c34.746094 6.894532 61 37.238282 61 73.527344zm0 0">
                 </path>
@@ -307,16 +309,16 @@ export default function Home(props) {
                 d="m414.90625 422h-30c-8.285156 0-15 6.714844-15 15s6.714844 15 15 15h30c8.285156 0 15-6.714844 15-15s-6.714844-15-15-15zm0 0">
                 </path>
                 </svg></span>
-                <h5 class ="u-text u-text-4">{props.section3.point3}</h5>
+                <h5 className="u-text u-text-4">{props.section3.point3}</h5>
                 </div>
                 </div>
                 </div>
                 </div>
-                <div class ="u-size-20">
-                <div class ="u-layout-row">
-                <div class ="u-container-style u-layout-cell u-size-60 u-layout-cell-5">
-                <div class ="u-container-layout u-container-layout-5">
-                <p class ="u-text u-text-5">{props.section3.text}</p>
+                <div className="u-size-20">
+                <div className="u-layout-row">
+                <div className="u-container-style u-layout-cell u-size-60 u-layout-cell-5">
+                <div className="u-container-layout u-container-layout-5">
+                <p className="u-text u-text-5">{props.section3.text}</p>
                 </div>
                 </div>
                 </div>
@@ -515,34 +517,35 @@ export default function Home(props) {
                     <div className="u-container-layout u-valign-middle-lg u-valign-middle-xl u-valign-top-xs u-container-layout-1">
                     <h2 className="u-text u-text-palette-1-base u-text-1">{props.section8.title}</h2>
                     <div className="u-align-left u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-form u-form-1">
-                        <form action="api/contact" method="POST" className="u-clearfix u-form-spacing-28 u-form-vertical u-inner-form"
+                        <form action="https://nicksendmyform.herokuapp.com/v1/send" method="POST" className="u-clearfix u-form-spacing-28 u-form-vertical u-inner-form"
                         style={{padding: "10px"}} source="custom" name="form">
-                        <div className="u-form-group u-form-name u-form-group-1">
-                            <label htmlFor="name-5a14" className="u-form-control-hidden u-label" wfd-invisible="true"></label>
-                            <input type="text" placeholder={props.section8.form.name} id="name-5a14" name="name"
-                            className="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-white"
-                            required="" maxLength="50"></input>
-                        </div>
-                        <div className="u-form-email u-form-group u-form-group-2">
-                            <label htmlFor="email-5a14" className="u-form-control-hidden u-label" wfd-invisible="true">Email</label>
-                            <input type="email" placeholder={props.section8.form.email} id="email-5a14" name="email"
-                            className="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-white"
-                            required="" maxLength="50"></input>
-                        </div>
-                        <div className="u-form-group u-form-message u-form-group-3">
-                            <label htmlFor="message-5a14" className="u-form-control-hidden u-label" wfd-invisible="true">Message</label>
-                            <textarea placeholder={props.section8.form.message} rows="4" cols="50" id="message-5a14" name="message"
-                            className="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-white"
-                            required="" maxLength="300"></textarea>
-                        </div>
-                        <div className="u-align-center u-form-group u-form-submit u-form-group-4">
-                            <a href="#"
-                            className="u-border-2 u-border-black u-btn u-btn-submit u-button-style u-hover-black u-none u-text-black u-text-hover-white u-btn-1">{props.section8.form.submitBtn}</a>
-                            <input type="submit" value="submit" className="u-form-control-hidden" wfd-invisible="true"></input>
-                        </div>
-                        <div className="u-form-send-message u-form-send-success" wfd-invisible="true">{props.section8.form.sentMessage}</div>
-                        <div className="u-form-send-error u-form-send-message" wfd-invisible="true">{props.section8.form.failMessage}</div>
-                        <input type="hidden" value="" name="recaptchaResponse" wfd-invisible="true"></input>
+                            <div className="u-form-group u-form-name u-form-group-1">
+                                <label htmlFor="name-5a14" className="u-form-control-hidden u-label" wfd-invisible="true"></label>
+                                <input type="text" placeholder={props.section8.form.name} id="name-5a14" name="name"
+                                className="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-white"
+                                required maxLength="50"></input>
+                            </div>
+                            <div className="u-form-email u-form-group u-form-group-2">
+                                <label htmlFor="email-5a14" className="u-form-control-hidden u-label" wfd-invisible="true">Email</label>
+                                <input type="email" placeholder={props.section8.form.email} id="email-5a14" name="email"
+                                className="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-white"
+                                required maxLength="50"></input>
+                            </div>
+                            <div className="u-form-group u-form-message u-form-group-3">
+                                <label htmlFor="message-5a14" className="u-form-control-hidden u-label" wfd-invisible="true">Message</label>
+                                <textarea placeholder={props.section8.form.message} rows="4" cols="50" id="message-5a14" name="message"
+                                className="u-border-2 u-border-black u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-white"
+                                required maxLength="300"></textarea>
+                            </div>
+                            <div className="h-captcha u-align-center u-form-group" data-sitekey="9fae15d1-e796-459c-ace5-44706715270a"></div>
+                            <div className="u-align-center u-form-group u-form-submit u-form-group-4">
+                                <a href="#"
+                                className="u-border-2 u-border-black u-btn u-btn-submit u-button-style u-hover-black u-none u-text-black u-text-hover-white u-btn-1">{props.section8.form.submitBtn}</a>
+                                <input type="submit" value="submit" className="u-form-control-hidden" wfd-invisible="true"></input>
+                            </div>
+                            <div className="u-form-send-message u-form-send-success" wfd-invisible="true">{props.section8.form.sentMessage}</div>
+                            <div className="u-form-send-error u-form-send-message" wfd-invisible="true">{props.section8.form.failMessage}</div>
+                            <input type="hidden" value="62ec32b20d3d069b47a28170" name="formkey" wfd-invisible="true"></input>
                         </form>
                     </div>
                     </div>
