@@ -4,3 +4,4 @@ Allow: /
 Allow: /en
 Allow: /pt
 Disallow: /api/
+Disallow: /atualizarestoque/
